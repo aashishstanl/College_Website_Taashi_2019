@@ -1,0 +1,122 @@
+.pic3
+{
+    top:70px;
+    width: 250%;
+    margin: 10px 20px;
+    padding: 50px 10px;
+    display: block;
+}
+.pic4
+{
+    top:70px;
+    width: 250%;
+    margin: 10px 20px;
+    padding: 50px 10px;
+    display: block;
+}
+.pic5
+{
+    top:70px;
+    width: 250%;
+    margin-top: 10px 20px;
+    padding: 50px 10px;
+    display: block;
+}
+
+.f
+{
+    border-box:double;
+    border-color:#666666;
+    box-align:center;
+}
+position: absolute;
+ 	background: transparent;
+ 	margin-top: 15px;
+ 	margin-left: -15px;
+ 	
+	border-bottom: 1px dotted #fff
+	background:transparent;
+	border-radius: 0;
+	text-align: left;
+
+.active
+ {
+ 	border-radius: 3px;
+
+ }
+
+ul li li:hover .sub-menu1
+{
+	display: block;
+ 	position: absolute;
+ 	background: rgb(100,0,0);
+ 	margin-top: 15px;
+ 	margin-left: -15px;
+ 	display: block;
+	margin: 10px;
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff
+	background:transparent;
+	border-radius: 0;
+	text-align: left;
+
+ }
+ .sub-menu1{
+ 	display: none;
+
+ }
+
+<div class="text">
+	<div class="hut">
+	<br>
+	<h1>
+		WELCOME..!! to DELHI NORTHERN UNIVERSITY Online webpage. 
+	</h1>
+	<p>
+		We inspire Learning For Better Future.
+	</p>
+	</div>
+</div>
+.sub-menu2{
+ 	display: none;
+
+ }
+ul li li:hover .sub-menu2
+{
+	display: block;
+ 	position: absolute;
+ 	background: rgb(100,0,0);
+ 	margin-top: 15px;
+ 	margin-left: -15px;
+ 	display: block;
+	margin: 10px;
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff
+	background:transparent;
+	border-radius: 0;
+	text-align: left;
+
+ }                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+

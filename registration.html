@@ -1,0 +1,182 @@
+<!doctype>
+<html>
+
+<head> <title> Form with internal css</title></head>
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+*
+{ 
+box-sizing: border-box;
+border-radius: 13px;
+color: white;
+}
+h4{text-decoration:underline;
+text-decoration:em;}
+
+body{background:url(comput.jpg);
+font-family:sans-serif;
+}
+input{background-color:white;
+color:black;}
+::placeholder{color:black;}
+.s{float: center;background: black;
+color: #fff;}
+.s:hover{color:green;}
+#a
+{
+	color: #fff;
+	margin: 20px;
+	padding: 20px;
+	border: double;
+	
+}
+
+ul
+{
+	background: transparent;
+	text-align: center;
+	display: inline-flex;
+	list-style: none;
+	
+}
+ ul li 
+{ 	
+	margin: 15px;
+	padding: 17px;
+	width: 130px;
+	text-align: left;
+		
+}
+ ul li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+ul li:hover
+{
+	background-color: #2bab0d;
+}
+
+ .i
+ {
+   width: 110px;
+ }	 
+.fa
+{
+	margin-right: 8px;
+}
+.sub-menu
+{
+	display: none;
+}
+
+ul li:hover .sub-menu 
+{
+	display: block;
+ 	position: absolute;
+ 	background: rgb(100,0,0);
+ 	margin-top: 15px;
+ 	margin-left: -15px;
+ 	display: block;
+	margin: 10px;
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff
+	background:transparent;
+	border-radius: 0;
+	text-align: center;
+ }
+
+fieldset{background:url(comput.jpg);
+}
+</style>
+
+<body>
+<h1 id="a"> Delhi Northern University </h1>
+<div>
+<ul>
+	<image class="i" src="capture.jpg">
+	<li><a href="home1.html"><i class="fa fa-home"></i>Home</a></li>
+	<li><a href=""><i class="fa fa-book"></i>Academic</a>
+		<ul class="sub-menu">
+			<li><a href="course.html">Course</a>
+					
+			</li>
+
+			<li><a href="placement.html">Placements</a>
+
+			</li>
+			<li><a href="sport.html">Sport</a>
+				
+			</li>
+
+		</ul>
+      </li>
+    <li><a href="gallery.html"><i class="fa fa-picture-o"></i>Gallery</a></li>
+    <li><a href="about.html"><i class="fa fa-user"></i>About</a></li>
+	<li><a href="contact.html"><i class="fa fa-phone-square"></i>Contact</a></li>
+	<li><a href="FAQ.html"><i class="fa fa-question-circle"></i>FAQ</a></li>
+	
+</ul>
+</div>
+<h2>Registration form </h2>
+<table>
+<form>
+<tr>
+<td>First name:</td><td><input type="test" placeholder="enter first name"></td></tr>
+<td>Middle name:</td><td><input type="test" placeholder="enter middle name"></td>
+<td>Last name:</td><td><input type="test" placeholder="Stanl"></td></tr>
+<td>Email:</td><td><input type="test" placeholder="abcd@gmail.com"></td></tr><tr>
+<td>Username:</td><td><input type="test" placeholder="as on site"></td>
+<td>Password:</td><td><input type="password" placeholder=" enter site password"></td></tr>
+<td>D.O.B:</td><td><input type="number" placeholder="day"min="1" max="31"></td>
+<td><input type="number" placeholder="month" min="1" max="12"></td>
+<td><input type="number" placeholder="year" min="1973" max="2003"></td>
+<tr>
+<td>Gender:</td><td>male<input type="radio" name="gender"></td><td>female<input type="radio" name="gender"></td><td>
+transfender<input type="radio" name="gender"></td>
+</form>
+</table>
+
+
+
+<fieldset><legend><h3>Academic detail </h3></legend>
+<table>
+<form>
+<label><h4>Metriculation</h4></lable>
+<tr>
+<td>Roll:</td><td><input type="number" placeholder="enter 10th roll"></td>
+<td>School name:</td><td><input type="text"></td>    
+</tr>
+<td>State:</td><td><input type="text"></td><td>Total marks:</td><td><input type="text" placeholder="cgpa or %"></td><tr>
+<td>Zipcode:</td><td><input type="number"></td>
+</tr>
+
+
+<tr><td><label><h4>Intermidiate</h4></lable></td></tr>
+<tr>
+<td>Roll:</td><td><input type="number" placeholder="enter 12th roll"></td>
+<td>School name:</td><td><input type="text"></td>    
+</tr>
+<td>State:</td><td><input type="text"></td><td>Total marks:</td><td><input type="text" placeholder="cgpa or %"></td><tr>
+<td>Zipcode:</td><td><input type="number"></td>
+</tr>
+
+
+
+
+
+
+
+
+</form>
+</table>
+
+</fieldset>
+<br>
+<tr><td class="s"><a href="thank.html"  ><input type="button" value="Submit"></a></td>
+</tr>
+</form>
+</table>
+</body>
+</html>
